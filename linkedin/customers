@@ -1,0 +1,12 @@
+linkedin=# CREATE TABlE customers (
+linkedin(# customer_id serial PRIMARY KEY,
+linkedin(# firstname VARCHAR(100) NOT NULL,
+linkedin(# lastname VARCHAR(100) UNIQUE NOT NULL,
+linkedin(# username VARCHAR(50) UNIQUE NOT NULL,
+  linkedin(# password VARCHAR(50) NOT NULL,
+  linkedin(# email VARCHAR(255) UNIQUE NOT NULL,
+  linkedin(# created_on TIMESTAMPTZ NOT NULL
+  linkedin(# );
+  CREATE TABLE
+  linkedin=# \d customers
+  
